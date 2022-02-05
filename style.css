@@ -28,6 +28,13 @@ header .brand {
   text-decoration: none;
 }
 
+header .logo {
+  height: 50px;
+  width: auto;
+  float: left;
+  margin-top: 20px;
+}
+
 header .navigation {
   position: relative;
 }
@@ -70,7 +77,6 @@ section {
   flex-direction: column;
   background: /*#8405ef;*/ #e8ef05;
 }
-
 .home:before {
   z-index: 777;
   content: '';
